@@ -10,6 +10,4 @@ jobs:
     steps:
       - name: step name
         run: |
-          echo "----- printing platform processor"
-
-    
+          echo "----- pushing to main directly"    
