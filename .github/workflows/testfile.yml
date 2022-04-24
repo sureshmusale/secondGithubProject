@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: step name
         run: |
-          echo: "step name"
+          echo "----- printing platform processor"
 
     
