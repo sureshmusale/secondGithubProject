@@ -1,5 +1,5 @@
-name: test project
+name: test workflow
 on:
   push:
     branches:
-      - "master"
+      - master
