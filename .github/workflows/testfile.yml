@@ -1,0 +1,5 @@
+name: test project
+on:
+  push:
+    branches:
+      - "master"
