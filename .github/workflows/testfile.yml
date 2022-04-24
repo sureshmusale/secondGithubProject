@@ -1,5 +1,15 @@
-name: test workflow
+name: test file
+
 on:
   push:
     branches:
-      - master
+      - "main"
+jobs:
+  insert-job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step name
+        run: |
+          echo: "step name"
+
+    
